@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 00:25:29</sys_created_on>
+        <sys_id>9cc123690f8232000d030dbce1050e32</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Glide API: event management</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_9cc123690f8232000d030dbce1050e32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-11 00:33:12</sys_updated_on>
+        <target_name>Glide API: event management</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>812a6eaadbba1300536ad5b0cf961963</instance_id>
+        <instance_name>dev62302</instance_name>
+        <name>sys_scope_privilege_9cc123690f8232000d030dbce1050e32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 00:25:29</sys_created_on>
+        <sys_id>9cc123690f8232000d030dbce1050e32</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Glide API: event management</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_9cc123690f8232000d030dbce1050e32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-11 00:33:12</sys_updated_on>
+        <target_name>Glide API: event management</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>-656979243</payload_hash>
+        <record_name>Glide API: event management</record_name>
+        <reverted_from/>
+        <source>34298f382f160110344db8e72799b6e5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 14:38:52</sys_created_on>
+        <sys_id>4139c3782f160110344db8e72799b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8e0479340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 14:38:52</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>8d39c37841160110cab8d14b8f49d563</update_guid>
+        <update_guid_history>8d39c37841160110cab8d14b8f49d563:0,59e30bb0f716011074441e72fe1b5407:1992028723,ce534370fc160110f0d69f23b586ca47:0,5369d2340652011030112ae1992a7f58:-1628890023,0fd89eb08c52011006470107daa1b9ed:-656979243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 16:51:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>0772576df00d4dd083b8ab7a0d556d90</sys_id>
+        <sys_metadata>9cc123690f8232000d030dbce1050e32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: event management</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_9cc123690f8232000d030dbce1050e32</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_9cc123690f8232000d030dbce1050e32">4139c3782f160110344db8e72799b664</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 16:51:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
