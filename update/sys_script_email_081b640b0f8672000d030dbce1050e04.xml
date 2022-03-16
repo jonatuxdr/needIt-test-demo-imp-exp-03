@@ -1,0 +1,24 @@
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;CountOverdueNeedItTasksAssignedto&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */ event) {
+        
+        // Add your code here
+        // Construct a GlideRecord query to find all NeedIt Task records with Due date
+        // field values in the past for the same Assigned to.  The records cannot be in the
+        // Closed state.
+        var rightNow = new GlideDateTime();
+        
+        var overdueNITasks = new GlideRecord('x_58872_needit_needit_task');
+        overdueNITasks.addQuery('due_date','&lt;=',rightNow);
+        overdueNITasks.addQuery('state','!=',3);
+        overdueNITasks.addQuery('assigned_to',current.assigned_to);
+        
+        overdueNITasks.query();
+        
+        // Print to the Message field on a notification
+        var count = overdueNITasks.getRowCount();
+        if(count &gt; 1){
+            template.print("In addition to this overdue NeedIt Task, you have " + (count - 1) + " more overdue NeedIt Tasks.");
+        }
+        
+    })(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-04-15 02:59:05&lt;/sys_created_on&gt;&lt;sys_id&gt;081b640b0f8672000d030dbce1050e04&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CountOverdueNeedItTasksAssignedto&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_081b640b0f8672000d030dbce1050e04&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-04-15 02:59:05&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
