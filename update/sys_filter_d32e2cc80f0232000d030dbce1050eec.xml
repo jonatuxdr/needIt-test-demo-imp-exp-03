@@ -3,9 +3,9 @@
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="sys_user">
             nameSTARTSWITH^nameISNOTEMPTY^EQ
-            <item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="" />
-            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value="" />
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value="" />
+            <item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
         <last_used>2017-04-05 19:30:00</last_used>
@@ -29,5 +29,5 @@
         <title>mobile</title>
         <user display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</user>
     </sys_filter>
-    <sys_translated_text action="delete_multiple" query="documentkey=d32e2cc80f0232000d030dbce1050eec" />
+    <sys_translated_text action="delete_multiple" query="documentkey=d32e2cc80f0232000d030dbce1050eec"/>
 </record_update>

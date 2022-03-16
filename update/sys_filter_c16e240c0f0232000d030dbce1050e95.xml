@@ -3,9 +3,9 @@
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="sys_user">
             nameSTARTSWITHs^nameISNOTEMPTY^EQ
-            <item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="s" />
-            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value="" />
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value="" />
+            <item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="s"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
         <last_used>2017-04-05 19:30:57</last_used>
@@ -29,5 +29,5 @@
         <title>mobile</title>
         <user display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</user>
     </sys_filter>
-    <sys_translated_text action="delete_multiple" query="documentkey=c16e240c0f0232000d030dbce1050e95" />
+    <sys_translated_text action="delete_multiple" query="documentkey=c16e240c0f0232000d030dbce1050e95"/>
 </record_update>

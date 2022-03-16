@@ -16,13 +16,13 @@
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_58872_needit_needit</name>
         <number_ref display_value="NI">1e427f010fe83200cd674f8ce1050e8b</number_ref>
-        <provider_class />
+        <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class display_value="Task" name="task">e44e166aa5300110c0a0e1db2cdc951f</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path />
+        <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 22:46:33</sys_created_on>
         <sys_id>10294f382f160110344db8e72799b6fc</sys_id>

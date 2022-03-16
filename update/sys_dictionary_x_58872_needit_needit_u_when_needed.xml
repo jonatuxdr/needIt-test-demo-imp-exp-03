@@ -4,9 +4,9 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes />
+        <attributes/>
         <audit>false</audit>
-        <calculation />
+        <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>

@@ -5,7 +5,7 @@
         <answer>NeedIt</answer>
         <button_label/>
         <dependent_value/>
-        <element />
+        <element/>
         <name>NeedIt</name>
         <next_question/>
         <order>100</order>

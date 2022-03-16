@@ -24,5 +24,5 @@
         <value>2</value>
         <write_roles>x_58872_needit.admin</write_roles>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=b9e69d500f9af2000d030dbce1050ef7" />
+    <sys_translated_text action="delete_multiple" query="documentkey=b9e69d500f9af2000d030dbce1050ef7"/>
 </record_update>
